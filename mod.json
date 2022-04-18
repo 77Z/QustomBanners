@@ -1,0 +1,24 @@
+{
+	"$schema": "https://raw.githubusercontent.com/Lauriethefish/QuestPatcher.QMod/main/QuestPatcher.QMod/Resources/qmod.schema.json",
+	"_QPVersion": "0.1.1",
+	"name": "Qustom Banners",
+	"id": "QustomBanners",
+	"author": "Phaze#6193, updated by Temmie#7854",
+	"version": "0.1.0",
+	"packageId": "com.beatgames.beatsaber",
+	"packageVersion": "1.21.0",
+	"description": "Add cool banners to your menu and game",
+	"dependencies": [],
+	"modFiles": [
+		"libQustomBanners.so"
+	],
+	"libraryFiles": [
+		"libbeatsaber-hook_3_8_1.so"
+	],
+	"fileCopies": [
+		{
+			"name": "banner.png",
+			"destination": "/sdcard/Pictures/banners/banner.png"
+		}
+	]
+}
